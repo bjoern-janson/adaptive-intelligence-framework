@@ -4,15 +4,15 @@ A unified framework for studying intelligence as the capacity of adaptive system
 
 ## Core Hypothesis
 
-\[
-I \propto C_{improve}
-\]
+$$
+I \propto C_{\text{improve}}
+$$
 
-where:
+where
 
-\[
-C_{improve} = \text{capacity to convert feedback into increased future viability}
-\]
+$$
+C_{\text{improve}} = \text{capacity to convert feedback into increased future viability}
+$$
 
 The framework proposes that intelligence is not only the ability to optimize within a fixed structure, but the ability to improve the mechanisms responsible for future adaptation.
 
@@ -22,26 +22,27 @@ The framework proposes that intelligence is not only the ability to optimize wit
 
 Adaptive intelligence is modeled as a recursive process:
 
+```text
 Reality
-↓
+   ↓
 Representation
-↓
+   ↓
 Reachability
-↓
+   ↓
 Correction
-↓
+   ↓
 Adaptation
-↓
+   ↓
 Improved Representation
+```
 
+or
 
-or:
-
-\[
+$$
 R \rightarrow \Omega \rightarrow C \rightarrow A \rightarrow R'
-\]
+$$
 
-where:
+where
 
 - **R (Representation)**  
   Internal models and compressed structures extracted from reality.
@@ -62,28 +63,26 @@ where:
 
 # Recursive Representation Expansion (REE)
 
-The central research question:
+The central research question is:
 
 > Can adaptive systems improve not only their parameters, but the representation space and mechanisms through which future improvements occur?
 
-Traditional learning:
+Traditional learning updates parameters within a fixed architecture:
 
-\[
+$$
 \theta_{t+1}=f(\theta_t)
-\]
+$$
 
-updates parameters inside a fixed architecture.
+REE instead proposes:
 
-REE proposes:
-
-\[
+$$
 \mathcal{G}_{t+1}=F(\mathcal{G}_t,E_t)
-\]
+$$
 
-where:
+where
 
-- \(\mathcal{G}\) = reachable adaptive mechanism space
-- \(E\) = environmental feedback
+- $\mathcal{G}$ = reachable adaptive mechanism space
+- $E$ = environmental feedback
 
 The system can modify the space of transformations available to it.
 
@@ -93,11 +92,11 @@ The system can modify the space of transformations available to it.
 
 Recursive systems require continued access to reality.
 
-The central condition:
+The central condition is
 
-\[
-E^* \Rightarrow C_{rev}
-\]
+$$
+E^* \Rightarrow C_{\text{rev}}
+$$
 
 External reality must retain causal access to the mechanism of future change.
 
@@ -105,7 +104,7 @@ Without this:
 
 - optimization can continue
 - capability can increase
-- but correction can disappear
+- correction can disappear
 
 The system becomes disconnected from the environment that originally selected it.
 
@@ -113,7 +112,7 @@ The system becomes disconnected from the environment that originally selected it
 
 # Research Program
 
-This framework is explored through several connected projects:
+This framework is explored through several connected projects.
 
 ## Representation Evolution
 
@@ -121,8 +120,9 @@ This framework is explored through several connected projects:
 
 Tests whether environmental pressure can produce expansion of internal representations.
 
-Repository:
-- ree
+**Repository**
+
+- `ree`
 
 ---
 
@@ -132,8 +132,9 @@ Repository:
 
 Studies when systems transition from fixed optimization toward reality-coupled self-revision.
 
-Repository:
-- ctre_simulator
+**Repository**
+
+- `ctre_simulator`
 
 ---
 
@@ -143,8 +144,9 @@ Repository:
 
 Studies whether adaptive systems can modify the mechanisms that generate future capabilities.
 
-Repository:
-- recursive-adaptive-dynamics
+**Repository**
+
+- `recursive-adaptive-dynamics`
 
 ---
 
@@ -158,14 +160,15 @@ Measures:
 - divergence
 - stability of self-updating systems
 
-Repository:
-- adaptive-stability-framework
+**Repository**
+
+- `adaptive-stability-framework`
 
 ---
 
 # Theoretical Foundations
 
-Related frameworks:
+Related frameworks include:
 
 ## Interface-Induced Computational Geometry
 
@@ -198,11 +201,11 @@ Measures when representation changes create disproportionate capability gains.
 
 A successful adaptive system must preserve reality-driven correction.
 
-The objective is not:
+The objective is not
 
 > maximum power
 
-but:
+but
 
 > maximum generative capacity that remains beneficial after its own removal.
 
@@ -212,7 +215,7 @@ A system succeeds when residual capability remains after the system itself is go
 
 # Status
 
-Current work:
+Current work includes:
 
 - theoretical framework developed
 - multiple formal models proposed
