@@ -1,66 +1,99 @@
-# Validation Strategy
+# Validation Framework
 
-The Adaptive Intelligence framework separates observable phenomena from causal hypotheses.
+The Adaptive Intelligence Framework separates observable transitions from causal explanations.
 
----
+A theory must first define what changes.
 
-## Principle
-
-A theory should first define what is observed.
-
-Only then should it explain why it occurs.
+Only then can it propose why the change occurs.
 
 ---
 
-## Observable Layer
+# Observable Transitions
 
-Examples:
+## Correctability
 
-- Structural residual persists
-- Representation expands
-- New adaptation rule persists
-- Error decreases across repeated interaction
-- Residual agency increases after deletion
+Question:
 
-These observations do not assume the theory is correct.
+Does feedback reduce future error?
 
----
+Observable:
 
-## Hypothesis Layer
+Error trajectory after consequence signals.
 
-Examples:
+Test:
 
-Adaptive Thermodynamics
-
-dΩ/dt ≤ ΘC
-
-Adaptive Stability
-
-n ≤ n*
-
-Evolutionary Agency
-
-D_c × C_e × A_c → G_V
-
-These hypotheses explain observed behavior and are falsifiable.
+Correctability Benchmark / Error Persistence Test
 
 ---
 
-## Repository Validation
+## Representation Expansion
 
-| Repository | Observable | Benchmark |
-|------------|------------|-----------|
-| adaptive-stability-framework | Error persistence | Correctability Benchmark |
-| ree | Representation expansion | Coordinate Expansion Test |
-| ctre_simulator | Adaptive transition | Transition Detection |
-| ancestor-architecture | Residual agency | Subtractive Deletion Benchmark |
+Question:
+
+Does the system modify its representation when fixed optimization reaches a limit?
+
+Observable:
+
+Persistent residuals followed by structural change.
+
+Test:
+
+Recursive Representation Expansion (REE)
 
 ---
 
-## Philosophy
+## Adaptive Transition
 
-The framework is organized around measurable transitions rather than architectural assumptions.
+Question:
 
-Repositories provide implementations.
+Does the system modify the mechanism responsible for adaptation?
 
-Benchmarks determine whether the underlying hypotheses survive empirical testing.
+Observable:
+
+A persistent change to the update process itself.
+
+Test:
+
+Causal Transition & Representation Evolution (CTRE)
+
+---
+
+## Residual Agency
+
+Question:
+
+Does the system leave downstream systems more capable after removal?
+
+Observable:
+
+Capability after deletion compared to baseline.
+
+Test:
+
+Subtractive Alignment Benchmark
+
+---
+
+# Falsifiable Hypotheses
+
+Adaptive Thermodynamics:
+
+$$
+\frac{d\Omega}{dt} \leq \Theta C
+$$
+
+Adaptive systems remain stable only when reachability expansion remains coupled to correction capacity.
+
+Causal Transition:
+
+$$
+D_c \times C_e \times A_c \rightarrow G_{\mathcal{V}}
+$$
+
+Recursive adaptation occurs when consequences modify the mechanisms generating future adaptation.
+
+---
+
+# Principle
+
+The framework is validated not by theoretical elegance, but by whether adaptive transitions can be measured, reproduced, and falsified.
