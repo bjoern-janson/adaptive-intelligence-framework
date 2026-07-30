@@ -1,24 +1,26 @@
 # Adaptive Intelligence Causal Stack
 
-The Adaptive Intelligence Framework is organized around a vertical causal stack.
+The Adaptive Intelligence Framework is organized around a **vertical causal stack**.
 
-The central question is not only how systems optimize, but how feedback propagates through increasingly deep layers of adaptation.
+The central question is not only **how systems optimize**, but **how feedback propagates through increasingly deep layers of adaptation**.
 
-A viable adaptive system requires reality to influence not only its current state, but the mechanisms responsible for future change.
+A viable adaptive system requires reality to influence not only its current state, but also the mechanisms responsible for future change.
 
 ---
 
 # The Vertical Stack
 
+```text
 Reality
-↓
+    ↓
 Correction
-↓
+    ↓
 Representation
-↓
+    ↓
 Mechanism
-↓
+    ↓
 Mechanism Generator
+```
 
 Each layer represents a deeper level at which adaptation can occur.
 
@@ -28,12 +30,12 @@ Each layer represents a deeper level at which adaptation can occur.
 
 Reality provides external consequences independent of the system's internal model.
 
-Examples:
+**Examples**
 
-- task outcomes
-- environmental changes
-- failed predictions
-- unexpected consequences
+- Task outcomes
+- Environmental changes
+- Failed predictions
+- Unexpected consequences
 
 Reality is the source of selection pressure.
 
@@ -43,19 +45,19 @@ Reality is the source of selection pressure.
 
 Correction describes the ability of reality to modify the system.
 
-Core relationship:
+**Core Relationship**
 
-$$
+```math
 E^* \Rightarrow C_{\text{rev}}
-$$
+```
 
 External evidence must maintain causal access to the processes responsible for future adaptation.
 
 Without correction:
 
-- errors can persist
-- internal consistency can replace external accuracy
-- optimization can continue while becoming disconnected from reality
+- Errors can persist.
+- Internal consistency can replace external accuracy.
+- Optimization can continue while becoming disconnected from reality.
 
 ---
 
@@ -63,21 +65,21 @@ Without correction:
 
 Representation defines the coordinate system through which the system understands and acts.
 
-Core loop:
+**Core Loop**
 
-$$
+```math
 R \rightarrow \Omega \rightarrow C \rightarrow A \rightarrow R'
-$$
+```
 
 where:
 
-- R = current representation
-- Ω = grounded reachability
-- C = correction capacity
-- A = adaptation
-- R' = improved representation
+- \(R\) = Current representation
+- \(\Omega\) = Grounded reachability
+- \(C\) = Correction capacity
+- \(A\) = Adaptation
+- \(R'\) = Improved representation
 
-When persistent residuals cannot be resolved inside the current representation, structural expansion may occur.
+When persistent residuals cannot be resolved within the current representation, structural expansion may occur.
 
 ---
 
@@ -87,9 +89,9 @@ Mechanisms are the active processes that transform states.
 
 Traditional learning modifies states within a fixed mechanism:
 
-$$
+```math
 \theta_{t+1}=f(\theta_t)
-$$
+```
 
 The adaptation process itself remains unchanged.
 
@@ -101,32 +103,32 @@ The deepest adaptive layer is the ability to modify the mechanisms responsible f
 
 This represents a transition from:
 
-changing solutions
+> Changing solutions
 
 to
 
-changing how solutions are generated
+> Changing how solutions are generated.
 
-The Causal Transition Condition investigates when this transition occurs.
+The **Causal Transition Condition** investigates when this transition occurs.
 
-Hypothesis:
+**Hypothesis**
 
-$$
+```math
 D_c \times C_e \times A_c \rightarrow G_{\mathcal{V}}
-$$
+```
 
 where:
 
-- D_c = consequence penetration into adaptive machinery
-- C_e = selection pressure on structural change
-- A_c = successful adaptation becoming future substrate
+- \(D_c\) = Consequence penetration into adaptive machinery
+- \(C_e\) = Selection pressure on structural change
+- \(A_c\) = Successful adaptation becoming the substrate for future adaptation
 
 ---
 
 # Relation to Research Modules
 
-| Layer | Research Module |
-|---|---|
+| Causal Layer | Research Module |
+| :--- | :--- |
 | Reality / Correction | Adaptive Stability Framework |
 | Representation | Recursive Representation Expansion |
 | Mechanism Transition | CTRE / Causal Transition Condition |
@@ -137,10 +139,10 @@ where:
 
 # Central Principle
 
-Intelligence increases when feedback can reach deeper layers of the adaptive process.
+Intelligence increases when feedback can reach progressively deeper layers of the adaptive process.
 
 The limiting question is:
 
-> Does reality only change what the system does, or can reality change how the system changes?
+> **Does reality only change what the system does, or can reality change how the system changes?**
 
 The Adaptive Intelligence Framework studies the conditions under which the second transition becomes possible.
