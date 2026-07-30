@@ -34,9 +34,9 @@ Studies whether adaptive systems remain coupled to reality as their internal com
 
 **Core Primitives**
 
-- Reality Permeability (\(\Theta\))
-- Correction Capacity (\(C\))
-- Corrigibility Horizon (\(n^*\))
+- $\Theta$ — Reality Permeability
+- $C$ — Correction Capacity
+- $n^*$ — Corrigibility Horizon
 
 **Research Question**
 
