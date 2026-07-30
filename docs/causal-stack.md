@@ -73,11 +73,11 @@ R \rightarrow \Omega \rightarrow C \rightarrow A \rightarrow R'
 
 where:
 
-- **\(R\)** = Current representation
-- **\(\Omega\)** = Grounded reachability
-- **\(C\)** = Correction capacity
-- **\(A\)** = Adaptation
-- **\(R'\)** = Improved representation
+- $R$ — Current representation
+- $\Omega$ — Grounded reachability
+- $C$ — Correction capacity
+- $A$ — Adaptation
+- $R'$ — Improved representation
 
 When persistent residuals cannot be resolved within the current representation, structural expansion may occur.
 
