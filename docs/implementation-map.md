@@ -8,17 +8,19 @@ Each repository explores a specific layer of the causal stack, moving from found
 
 # Causal Stack Mapping
 
+```text
 Reality
-↓
+    ↓
 Correction
-↓
+    ↓
 Representation
-↓
+    ↓
 Mechanism
-↓
+    ↓
 Mechanism Generator
-↓
+    ↓
 Selection Across Systems
+```
 
 ---
 
@@ -30,13 +32,13 @@ Selection Across Systems
 
 Studies whether adaptive systems remain coupled to reality as their internal complexity increases.
 
-**Core primitives**
+**Core Primitives**
 
-- Reality permeability (Θ)
-- Correction capacity (C)
-- Corrigibility horizon (n*)
+- Reality Permeability (\(\Theta\))
+- Correction Capacity (\(C\))
+- Corrigibility Horizon (\(n^*\))
 
-**Research question**
+**Research Question**
 
 Can feedback continue modifying a system as the system recursively changes?
 
@@ -54,19 +56,19 @@ Can feedback continue modifying a system as the system recursively changes?
 
 Tests whether adaptive systems can expand their representational space when existing representations fail.
 
-Traditional optimization:
+**Traditional Optimization**
 
-\[
+```math
 \theta_{t+1}=f(\theta_t)
-\]
+```
 
-Representation expansion:
+**Representation Expansion**
 
-\[
+```math
 \mathcal{G}_{t+1}=F(\mathcal{G}_t,E_t)
-\]
+```
 
-**Research question**
+**Research Question**
 
 Can persistent residuals cause structural expansion rather than continued optimization inside a failed coordinate system?
 
@@ -85,17 +87,17 @@ Can persistent residuals cause structural expansion rather than continued optimi
 
 Defines the boundary between adapting within a mechanism and modifying the mechanism itself.
 
-Observable transition:
+**Observable Transition**
 
-1. Persistent structural residual appears.
+1. A persistent structural residual appears.
 2. A new adaptation rule is generated.
 3. The rule persists and influences future adaptation.
 
 **Hypothesis**
 
-\[
+```math
 D_c \times C_e \times A_c \rightarrow G_{\mathcal{V}}
-\]
+```
 
 **Repositories**
 
@@ -112,7 +114,7 @@ D_c \times C_e \times A_c \rightarrow G_{\mathcal{V}}
 
 Studies systems where adaptation becomes the substrate for future adaptation.
 
-**Research question**
+**Research Question**
 
 Can a system modify the processes responsible for generating future improvements?
 
@@ -130,11 +132,11 @@ Can a system modify the processes responsible for generating future improvements
 
 Extends adaptive intelligence into multi-agent systems and evaluates whether systems increase downstream adaptive capacity.
 
-Core metric:
+**Core Metric**
 
-\[
-\Delta A_{residual}>0
-\]
+```math
+\Delta A_{\text{residual}} > 0
+```
 
 A successful system leaves behind greater capability after its removal.
 
@@ -148,19 +150,21 @@ A successful system leaves behind greater capability after its removal.
 
 The research program follows the causal direction:
 
+```text
 Adaptive Stability
-↓
+        ↓
 Grounded Recursive Adaptation
-↓
+        ↓
 Recursive Representation Expansion
-↓
+        ↓
 Causal Transition Condition
-↓
+        ↓
 Recursive Adaptive Dynamics
-↓
+        ↓
 Ancestor Architecture
+```
 
-The repositories are not independent projects.
+The repositories are **not** independent projects.
 
 They represent different measurement points along the same adaptive process.
 
@@ -170,6 +174,6 @@ They represent different measurement points along the same adaptive process.
 
 The unified implementation question is:
 
-> How does a system move from optimizing within a fixed mechanism to modifying the mechanisms responsible for future adaptation?
+> **How does a system move from optimizing within a fixed mechanism to modifying the mechanisms responsible for future adaptation?**
 
 Each repository measures one stage of that transition.
