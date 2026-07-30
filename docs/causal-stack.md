@@ -119,9 +119,9 @@ D_c \times C_e \times A_c \rightarrow G_{\mathcal{V}}
 
 where:
 
-- \(D_c\) = Consequence penetration into adaptive machinery
-- \(C_e\) = Selection pressure on structural change
-- \(A_c\) = Successful adaptation becoming the substrate for future adaptation
+- $D_c$ — Consequence penetration into adaptive machinery
+- $C_e$ — Selection pressure on structural change
+- $A_c$ — Successful adaptation becoming the substrate for future adaptation
 
 ---
 
